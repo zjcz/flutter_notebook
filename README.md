@@ -54,7 +54,7 @@ flutter run
 - Uses the system colors of the device, support for Light and Dark themes
 
 ## 🟢 GitHub Actions
-The project contains a GitHub action to run the tests when changes are pushed.
+The project contains two GitHub actions; one to run the tests when changes are pushed to any branch, and one to publish the site to GitBub Pages when changes are pushed to the main branch.  The site can be viewed [here](https://zjcz.github.io/flutter_notebook/).
 
 ## ✅ ToDo
 As mentioned above, this is far from a complete application but was intended as a way of practicing using Riverpod and the best way to structure an application.  If I have time there are a few things I'd like to work on to make this a usable application:
